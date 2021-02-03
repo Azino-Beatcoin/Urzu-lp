@@ -1,0 +1,11 @@
+.AllPartners {
+    border-radius: 32px !important ;
+    width: 180px !important;
+    height: 50px !important;
+    outline: none !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    color: white !important ;
+    background-color: #ff6600 !important ;
+}

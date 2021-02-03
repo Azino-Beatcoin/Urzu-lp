@@ -1,0 +1,59 @@
+.MainCard {
+    width: 250px;
+    height: 280px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    border: rgba(0, 0, 0, 0.47) 1px solid;
+    /* box-shadow:  2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12); */
+}
+
+.ImageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    height: 200px;
+}
+
+.Name {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.77);
+    padding: 0;
+}
+
+.Description {
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+}
+
+.LookButton {
+  padding: 7px;
+  border-radius: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: rgba(0, 0, 0, 0.67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+  font-weight: 400;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.67);
+  background-color: white;
+}
+
+.LookButton:hover {
+    color: white;
+    background-color: #ff6600;
+    border-color: #ff6600;
+}

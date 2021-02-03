@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    .changeAlign {
+        text-align: center !important ;
+    }
+    .Logos {
+        margin-right: auto;
+        margin-left: 0 !important;
+    }
+    .changeAlign2 {
+        text-align: left !important;
+    }
+}
+
+.CallPhone {
+    text-decoration: none;
+}
+
+.CallPhone:hover {
+    text-decoration: underline;
+    text-decoration-color: #ACABAB;
+}

@@ -1,0 +1,52 @@
+.Slogan {
+    font-weight: 800;
+    font-size: 43px;
+    color: rgba(0, 0, 0, 0.77);
+}
+
+.lowerSlogan {
+    font-weight: 800;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.button {
+  width: 100% !important;
+  max-width: 300px !important;
+  height: 70px !important;
+  border-radius: 32px !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease-in-out !important;
+  /* box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF; */
+  color: #fff !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* margin: 0 auto; */
+  border: 0 !important;
+  outline: none !important;
+  background-color: #ff6600 !important;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: semibold;
+}
+
+.SloganGroup {
+  max-width: 400px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.77);
+}
+
+@media screen and (max-width: 959px) {
+  .SloganGroup {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .button {
+    margin: 0 auto;
+  }
+}

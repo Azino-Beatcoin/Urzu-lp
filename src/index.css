@@ -1,13 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #f3f0f1; */
 }
 
-code {
+* {
+  font-family: 'Montserrat' !important ;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+h1 {
+  color: rgba(0, 0, 0, .77);
+}
+
+h2 {
+  color: rgba(0, 0, 0, .67);
+}
+
+.withoutBorder {
+  border-bottom: none !important;
+}
+
+/* .MuiTableHead-root {
+  border-bottom: ;
+} */
+
+.MuiButton-label {
+  font-size: 15px;
 }

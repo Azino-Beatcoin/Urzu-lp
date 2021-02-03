@@ -1,0 +1,38 @@
+.HeaderBox {
+    padding: 20px 0;
+}
+
+.Ahref {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 20px;
+    color: rgba(0, 0, 0, .67);
+}
+
+.Ahref1 {
+    border: 1px solid rgba(0, 0, 0, .47);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 20px;
+    color: rgba(0, 0, 0, .67);
+    padding: 10px;
+    border-radius: 42px;
+}
+
+.Hamburger {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+    transition: 500ms;
+}
+
+.Hamburger:active {
+    background-color: rgba(0, 0, 0, .17);
+}

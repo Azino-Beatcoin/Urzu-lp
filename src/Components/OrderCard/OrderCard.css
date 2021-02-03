@@ -1,0 +1,52 @@
+.containerSvg {
+    width: 120px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.svgItem {
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    transform: scale(1.7);
+}
+
+.pathItem {
+    stroke-dasharray: 99.47578430175781;
+    stroke-dashoffset: -99.47578430175781;
+    fill: transparent;
+}
+
+.svgItem.animate .pathItem {
+    animation: 1.7s ease forwards draw;
+    opacity: 1;
+}
+
+@keyframes draw {
+    0% {
+        opacity: 1;
+        stroke-dashoffset: -99.47578430175781;
+        fill: transparent;
+        transform: translateY(0);
+    }
+    35% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+    60% {
+        fill: #3da35a;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        fill: #3da35a;
+        stroke-dashoffset: 0;
+        /* opacity: 0; */
+        transform: translateY(-10px);
+    }
+}
